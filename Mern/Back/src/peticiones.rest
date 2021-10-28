@@ -1,0 +1,26 @@
+@urlBase = http://localhost:3001
+GET {{urlBase}}/usuarios/ HTTP/1.1
+###
+GET http://localhost:3001/ventas/616a3504d46f153f3a239c7d HTTP/1.1
+###
+POST http://localhost:3001/usuarios HTTP/1.1 
+content-Type: application/json
+
+{
+    "valorTotal": 5000000,
+    "nombreCliente":"Andres felipe rodriguez",
+    "nId": 10690840,
+    "state": "En proceso"
+}
+###
+DELETE {{urlBase}}/ventas/61759496e8fbe9bc41563f4b
+###
+PUT http://localhost:3001/ventas/6175cc430bf9e06e15ea2f3b
+content-type: application/json
+
+{
+    "valorTotal": 4000000,
+    "nombreCliente":"Jorge alberto rodriguez",
+    "nId": 10408980,
+    "state": "En proceso" 
+}

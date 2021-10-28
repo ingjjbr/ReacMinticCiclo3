@@ -1,0 +1,8 @@
+@urlBase = http://localhost:3001
+
+POST http://localhost:3001/auth/google HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"prueba@correo.com"
+}
