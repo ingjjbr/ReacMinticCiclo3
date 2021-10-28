@@ -1,0 +1,96 @@
+#form {
+	display: none;
+}
+
+h1 {
+	text-align: left;
+}
+
+.buscador {
+	margin-bottom: 10px;
+}
+
+.container {
+	max-width: 1360px;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+
+.banner {
+	background-color: white;
+}
+
+.lista {
+	float: left;
+	width: 70%;
+}
+
+.lista table tr:nth-child(even) {
+	background-color: #ece4e4;
+}
+
+.lista table td:first-child {
+	width: 4em;
+}
+
+.lista table td:nth-child(9) {
+	width: 5em;
+}
+
+.lista table td:nth-child(8) {
+	width: 5em;
+}
+
+.lista table td:nth-child(5) {
+	width: 12em;
+}
+
+.lista table {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.encabezado {
+	background-color: #023047;
+	color: white;
+	border-radius: 3px;
+}
+
+th,
+td {
+	padding: 0.4em;
+	margin: 0em;
+}
+
+.imagen {
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.formulario {
+	background-color: #fcf5f5;
+	border: 1px solid #023047;
+	border-radius: 3px;
+	width: 365px;
+	float: right;
+	color: black;
+}
+
+.botones {
+	text-align: center;
+	background-color: #023047;
+	margin-top: 10px;
+	padding: 1.5%;
+}
+
+.botones input[type="button"] {
+	background-color: #bcbfc2;
+	color: black;
+	margin-left: 40px;
+}
+
+.botones input[type="submit"] {
+	background-color: #bcbfc2;
+	color: black;
+}
